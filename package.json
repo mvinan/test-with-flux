@@ -1,0 +1,31 @@
+{
+  "name": "react-flux",
+  "version": "1.0.0",
+  "description": "isomorphic app with react and flux arquitecture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t babelify app.js > build.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvinan/react-flux.git"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "isomophic-app"
+  ],
+  "author": "Miguel Viñan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvinan/react-flux/issues"
+  },
+  "homepage": "https://github.com/mvinan/react-flux#readme",
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reflux": "^0.2.12"
+  }
+}

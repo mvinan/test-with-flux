@@ -1,1 +1,1 @@
-# react-flux
+# React and flux
